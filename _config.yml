@@ -1,5 +1,5 @@
 # Site settings
-title:
+title: 진이 홈페이지
 email:
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
