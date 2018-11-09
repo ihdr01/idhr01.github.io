@@ -276,6 +276,33 @@ header {
                 }
             }
         }
+        
+        .portfolio-box-caption-content2 {
+            text-align: center;
+            position: relative;
+            top: 40%;
+            padding: 0 30px;   
+        }
+        .project-content{
+          display: inline-block;
+          vertical-align: middle;
+        }  
+        .card.is-flipped {
+          transform: rotateY(180deg);
+        }
+        .card__face--back {
+          transform: rotateY(180deg);
+        }
+        .card{
+          cursor: pointer;
+          transition: transform 1s;
+          transform-style: preserve-3d;
+        }  
+        .card__face {
+        
+          backface-visibility: hidden;
+        }
+        
     }
 }
 
