@@ -128,7 +128,8 @@ aside {
         &.affix {
             background-color: white;
             border-color: rgba($theme-dark, .5);
-            .navbar-header .navbar-brand {
+            .navbar-
+            .navbar-brand {
                 color: $theme-primary;
                 font-size: 14px;
                 &:hover,
@@ -161,7 +162,7 @@ header {
     .header-content {
         position: relative;
         text-align: center;
-        padding: 100px 15px 100px;
+        padding: 200px 15px 100px;
         width: 100%;
         .header-content-inner {
             h1 {
@@ -199,6 +200,7 @@ header {
                     max-width: 80%;
                     margin-left: auto;
                     margin-right: auto;
+                    padding-top: 30px;
                 }
             }
         }
